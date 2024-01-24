@@ -36,6 +36,8 @@ const Counter = memo(function Counter({ initialCount }) {
 
 
   // const [counter, setCounter] = useState(initialCount);
+
+  // !
   const [counterChanges, setCounterChanges] = useState([
     { value: initialCount, id: Math.random() * 100 },
   ]);
